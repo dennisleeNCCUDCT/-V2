@@ -593,12 +593,13 @@ body.nav-active {
 \*-----------------------------------*/
 
 .preload {
+  color: white;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--gold-crayola);
+  background-color: black;
   z-index: 10;
   display: grid;
   place-content: center;
@@ -650,7 +651,7 @@ body.nav-active {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-stroke: 0.5px var(--eerie-black-3);
+  -webkit-text-stroke: 0.5px white;
   animation: loadingText linear 2s infinite;
 }
 
@@ -2558,4 +2559,8 @@ textarea.input-field {
   background-color: black;
 
   gap: 8px;
+}
+
+.initial-loading {
+  color: white;
 }
