@@ -2536,7 +2536,7 @@ textarea.input-field {
 .flex2 {
   /* 基本樣式 */
   width: 100vw;
-  height: auto;
+  height: fit-content;
 }
 
 .burgermenu {
