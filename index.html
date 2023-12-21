@@ -32,7 +32,35 @@
     <link rel="preload" as="image" href="./assets/champion/1.jpg" />
     <link rel="preload" as="image" href="./assets/champion/2.jpg" />
     <link rel="preload" as="image" href="./assets/champion/3.jpg" />
-    
+    <style>
+      .fadeout {
+        animation-name: example;
+        animation-duration: 6s;
+      }
+
+      @keyframes example {
+        99% {
+          opacity: 100%;
+        }
+        100% {
+          opacity: 0%;
+        }
+      }
+
+      .matrix {
+        animation-name: example2;
+        animation-duration: 8s;
+      }
+
+      @keyframes example2 {
+        0% {
+          opacity: 0%;
+        }
+        100% {
+          opacity: 100%;
+        }
+      }
+    </style>
   </head>
  
 
@@ -49,7 +77,12 @@
     <!-- 
     - #PRELOADER2
   -->
-
+  <div class="video-container">
+    <div id="mydiv" class="fadeout">
+      <img class="fadeout" src="./assets/透明.gif">
+      
+    </div>
+  </div>
     <!-- 
     - #TOP BAR
   -->
