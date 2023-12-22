@@ -203,6 +203,7 @@ body {
 
 body.loaded {
   overflow: overlay;
+  margin-bottom: 0%;
 }
 
 body.nav-active {
@@ -266,6 +267,10 @@ body.nav-active {
 
 .title-4 {
   font-size: var(--fontSize-title-4);
+}
+body {
+  height: 100vh;
+  padding: 0;
 }
 
 .body-1 {
@@ -1477,9 +1482,13 @@ textarea.input-field {
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
+.footer {
+  margin-bottom: 0%;
+  margin-top: 0px;
+}
 
 .footer-top {
-  margin-block-end: 70px;
+  margin-block-end: 0px;
 }
 
 .footer-brand {
@@ -2482,7 +2491,9 @@ textarea.input-field {
   top: 0;
   bottom: 0;
   width: 100%;
-  height: 100%;
+
+  height: 100vh;
+  padding: 0;
   overflow: hidden;
 }
 
