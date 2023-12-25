@@ -305,6 +305,8 @@ body {
 
 .container {
   padding-inline: 16px;
+  align-items: center;
+  margin-right: 200px;
 }
 
 .separator {
@@ -312,6 +314,8 @@ body {
   height: 8px;
   border: 1px solid var(--gold-crayola);
   transform: rotate(45deg);
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .contact-label {
@@ -762,6 +766,7 @@ body {
   visibility: hidden;
   z-index: 1;
   transition: var(--transition-2);
+  align-items: center;
 }
 
 .navbar.active {
