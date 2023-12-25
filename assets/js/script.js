@@ -7,7 +7,7 @@
  */
 setTimeout(function () {
   $("#mydiv").fadeOut("slow");
-}, 1000);
+}, 10000);
 /**
  * PRELOAD
  *
